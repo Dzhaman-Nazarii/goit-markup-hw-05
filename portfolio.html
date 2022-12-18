@@ -24,7 +24,7 @@
 			<nav class="header-nav">
 				<ul class="nav-list header-menu">
 					<li><a class="nav-link" href="./index.html">Студія</a></li>
-					<li><a class="nav-link portfolio-color" href="./portfolio.html">Портфоліо</a></li>
+					<li><a class="nav-link portfolio-color current" href="./portfolio.html">Портфоліо</a></li>
 					<li><a class="nav-link" href="#">Контакти</a></li>
 				</ul>
 			</nav>
@@ -69,10 +69,15 @@
 				<h1 class="visually-hidden">Портфоліо</h1>
 				<ul class="portfolio-list">
 					<li class="portfolio-item">
-						<img src="./images/technocrack.jpg" alt="технокрак" width="370">
-						<div class="portfolio-card">
-							<h3 class="header-card">Технокряк</h3>
-							<p class="subheader-card">Веб-сайт</p>
+						<div class="overlay">
+							<img src="./images/technocrack.jpg" alt="технокрак" width="370">
+							<div class="portfolio-card">
+								<h3 class="header-card">Технокряк</h3>
+								<p class="subheader-card">Веб-сайт</p>
+								<div class="portfolio-overlay">
+									<p class="portfolio-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+								</div>
+							</div>
 						</div>
 					</li>
 					<li class="portfolio-item">
@@ -188,5 +193,7 @@
 			</div>
 		</div>
 	</footer>
+
+	<script src="./js/modal.js"></script>
 </body>
 </html>
